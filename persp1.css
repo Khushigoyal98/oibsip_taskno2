@@ -1,0 +1,178 @@
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  body {
+    font-family: sans-serif;
+    background-color: #f9f9f9;
+  }
+  
+
+  .nav {
+    display: flex;
+    justify-content: flex-end;
+    background-color: #333;
+    height: 50px;
+    width: 100%;
+    position: fixed;
+    top: 0;
+    z-index: 1;
+  }
+  
+  ul {
+    display: flex;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+  }
+  
+  li {
+    margin: 0 10px;
+  }
+  
+  a {
+    color: #fff;
+    text-decoration: none;
+    padding: 0 10px;
+    line-height: 50px;
+    display: block;
+  }
+  
+  a:hover {
+    background-color: #555;
+  }
+
+  #home {
+    height: 100vh;
+    background-image: url("sci2");
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .head {
+    color: white;
+    font-size: 4rem;
+    text-shadow: 2px 2px #333;
+  }
+  
+  #about {
+    background-color:#23c0e0;
+    padding: 50px 0;
+  }
+  
+  #pic {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
+  }
+  
+  #pic img {
+    width: 250px;
+    border-radius: 5px;
+    margin: 10px;
+    box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.5);
+    object-fit: cover;
+  }
+  
+  
+  #introduction {
+    max-width: 400px;
+    text-align: center;
+    margin: 20px;
+  }
+  
+  #introduction h2 {
+    font-size: 2.5rem;
+    margin-bottom: 10px;
+  }
+  
+  #introduction p {
+    font-size: 1.2rem;
+  }
+  
+ 
+  #skills {
+    background-color: #23c0e0;
+    padding: 50px 0;
+  }
+  
+  .card-wrapper {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 20px;
+  }
+  
+  .card {
+    background-color: #fff;
+    box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.5);
+    padding: 20px;
+    max-width: 250px;
+    text-align: center;
+  }
+  
+  .card h2 {
+    font-size: 2rem;
+    margin-bottom: 10px;
+  }
+  
+  .card p {
+    font-size: 1.2rem;
+  }
+  .heading {
+    color: rgb(23, 22, 22);
+    font-size: 4rem;
+    text-shadow: 2px 2px #dad5d5;
+  }
+
+*/
+#contact {
+    background-color: #23c0e0;
+    padding: 50px 0;
+  }
+  
+  #contact form {
+    max-width: 500px;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+  }
+  
+  #contact label {
+    font-size: 1.2rem;
+    margin-bottom: 5px;
+  }
+  
+  #contact input,
+  #contact textarea {
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    margin-bottom: 20px;
+    font-size: 1rem;
+  }
+  
+  #contact textarea {
+    height: 100px;
+  }
+  
+  #contact input[type="submit"] {
+    background-color: #333;
+    color: #fff;
+    font-size: 1rem;
+    padding: 10px;
+    cursor: pointer;
+  }
+  
+  #contact input[type="submit"]:hover {
+    background-color: #555;
+  }
+  #contact{
+    background-color: #23c0e0;
+  }
